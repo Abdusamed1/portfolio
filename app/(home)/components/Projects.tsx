@@ -1,9 +1,15 @@
 import React from "react";
-import { SiNextdotjs, SiReact, SiTailwindcss } from "react-icons/si";
+import {
+  SiNextdotjs,
+  SiReact,
+  SiSelenium,
+  SiTailwindcss,
+} from "react-icons/si";
 import Title from "./Title";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
 import { DirectionAwareHover } from "@/components/ui/direction-aware-hover";
+import { DiPython } from "react-icons/di";
 
 const Projects = () => {
   const projects = [
@@ -15,10 +21,10 @@ const Projects = () => {
       background: "bg-indigo-500",
     },
     {
-      title: "Notes App",
-      tech: [SiReact, SiTailwindcss],
-      link: "http://localhost:5173",
-      cover: "/project-2.png",
+      title: "Automation Script",
+      tech: [DiPython, SiSelenium],
+      link: "https://github.com/Abdusamed1/Automation-Script",
+      cover: "/project-3.png",
       background: "bg-green-500",
     },
   ];
