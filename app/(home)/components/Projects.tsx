@@ -16,7 +16,7 @@ const Projects = () => {
     {
       title: "React portfolio",
       tech: [SiNextdotjs, SiReact, SiTailwindcss],
-      link: "http://localhost:3001",
+      link: "https://abdusamedportfolio.vercel.app/",
       cover: "/project-1light.png",
       background: "bg-indigo-500",
     },
