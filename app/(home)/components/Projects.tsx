@@ -23,7 +23,7 @@ const Projects = () => {
     {
       title: "Automation Script",
       tech: [DiPython, SiSelenium],
-      link: "https://github.com/Abdusamed1/Automation-Script",
+      link: "https://github.com/Abdusamed1/selenium-job-automation",
       cover: "/project-3.png",
       background: "bg-green-500",
     },
